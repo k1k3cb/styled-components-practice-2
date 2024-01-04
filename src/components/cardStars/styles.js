@@ -12,6 +12,7 @@ export const StarsCardContainer = styled.div`
 export const StarsContainer = styled.div`
 	display: flex;
 	justify-content: center;
+	
 `;
 
 export const StarsText = styled.p`
