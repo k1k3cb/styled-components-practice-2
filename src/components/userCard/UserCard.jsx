@@ -1,24 +1,24 @@
 import {
-	CardText,
-	HeaderCard,
-	UserCardContainer,
-	UserDescription,
-	UserImg,
-	UserName
+	StyledCardText,
+	StyledHeaderCard,
+	StyledUserCardContainer,
+	StyledUserDescription,
+	StyledUserImg,
+	StyledUserName
 } from './styles';
 
-const UserCard = ({ image, user, userDescription, text }) => {
+const UserCard = ({ image, user, userDescription, text, margin }) => {
 	return (
-		<UserCardContainer>
-			<HeaderCard>
-				<UserImg src={image} alt={`${user} photo`} />
+		<StyledUserCardContainer margin={margin}>
+			<StyledHeaderCard>
+				<StyledUserImg src={image} alt={`${user} photo`} />
 				<div>
-					<UserName>{user}</UserName>
-					<UserDescription>{userDescription}</UserDescription>
+					<StyledUserName>{user}</StyledUserName>
+					<StyledUserDescription>{userDescription}</StyledUserDescription>
 				</div>
-			</HeaderCard>
-			<CardText>{text}</CardText>
-		</UserCardContainer>
+			</StyledHeaderCard>
+			<StyledCardText>{text}</StyledCardText>
+		</StyledUserCardContainer>
 	);
 };
 

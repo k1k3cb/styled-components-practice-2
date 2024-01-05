@@ -19,6 +19,13 @@ export const GlobalStyles = createGlobalStyle`
 
   }
 
+  @media (width>= 768px) {
+		body{
+    margin: 145px 165px; 
+  } 
+	}
+	
+
   a{
     text-decoration: none;
     color: inherit;
@@ -32,6 +39,30 @@ export const GlobalStyles = createGlobalStyle`
   }
 `;
 
-export const StarsContainerGl = styled.div`
+export const StyledStarsContainerGl = styled.div`
 	margin-bottom: 3.125rem;
+
+	@media (width>= 768px) {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+`;
+
+export const StyledTopContainerGl = styled.div`
+	@media (width>= 768px) {
+		display: flex;
+		max-width: 1110px;
+		justify-content: space-between;
+	}
+`;
+
+export const StyledBottomContainerGl = styled.div`
+	@media (width>= 768px) {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 30px;
+		max-width: 1110px;
+	}
 `;

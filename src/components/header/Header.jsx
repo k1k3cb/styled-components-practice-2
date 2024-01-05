@@ -1,14 +1,18 @@
-import { Title, TitleDescription } from "./styles";
+import {
+	StyledHeaderContainer,
+	StyledTitle,
+	StyledTitleDescription
+} from './styles';
 
 const Header = () => {
 	return (
-		<header>
-			<Title>10,000+ of our users love our products.</Title>
-			<TitleDescription>
+		<StyledHeaderContainer>
+			<StyledTitle>10,000+ of our users love our products.</StyledTitle>
+			<StyledTitleDescription>
 				We only provide great products combined with excellent customer service.
 				See what our satisfied customers are saying about our services.
-			</TitleDescription>
-		</header>
+			</StyledTitleDescription>
+		</StyledHeaderContainer>
 	);
 };
 

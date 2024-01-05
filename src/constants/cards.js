@@ -2,26 +2,26 @@ import { v4 } from 'uuid';
 
 export const CARDS = [
 	{
-		id: v4(),		
-		$className: 'card-1',
+		id: v4(),
+		$marginTop: 0,
 		user: 'Colton Smith',
 		userDescription: 'Verified Buyer',
 		image: '/assets/images/image-colton.jpg',
 		content:
 			'“ We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent! ”'
 	},
-    {
-		id: v4(),		
-		$className: 'card-2',
+	{
+		id: v4(),
+		$marginTop: 20,
 		user: 'Irene Roberts',
 		userDescription: 'Verified Buyer',
 		image: '/assets/images/image-irene.jpg',
 		content:
 			'“ Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery.”'
 	},
-    {
-		id: v4(),		
-		$className: 'card-3',
+	{
+		id: v4(),
+		$marginTop: 40,
 		user: 'Anne Wallace',
 		userDescription: 'Verified Buyer',
 		image: '/assets/images/image-anne.jpg',
